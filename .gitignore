@@ -1,0 +1,21 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Datos y resultados
+*.xlsx
+*.csv
+*.json
+data/
+
+# Variables de entorno  
+.env
+.env.local
+secrets.py
+config.py
+
+# Sistema
+.DS_Store
+Thumbs.db
