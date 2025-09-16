@@ -1,16 +1,25 @@
 # 🕷️ Amazon Product Scraper
 
-## ⚠️ ADVERTENCIA LEGAL - EDUCATIONAL USE ONLY
-Este proyecto es **exclusivamente para fines educativos**. El web scraping puede violar los Términos de Servicio de Amazon.
+## ⚠️ **LEGAL WARNING - EDUCATIONAL USE ONLY**  
+This project is **for educational purposes only**. Web scraping may violate Amazon's Terms of Service.  
 
-**No usar para:**
-- ❌ Scraping masivo
-- ❌ Fines comerciales  
-- ❌ Abuso de solicitudes
-- ❌ Extracción de datos a gran escala
+**Do not use for:**  
+- ❌ Large-scale scraping  
+- ❌ Commercial purposes  
+- ❌ Request abuse  
+- ❌ Massive data extraction  
 
-## 🚀 Cómo ejecutar
+---
 
-1. Instalar dependencias:
+## 🚀 **How to Run**  
+
+1. **Install dependencies:**  
 ```bash
 pip install -r requirements.txt
+```
+
+2. **Launch the application:**  
+```bash
+streamlit run app.py
+```
+*Open your browser and go to the local URL provided (usually `http://localhost:8501`).*
